@@ -111,7 +111,7 @@ class CoachPoolActivity : AppCompatActivity() {
         header_name.text = currentUserFirstName.toString()
         Log.i("set the header name!", currentUserFirstName.toString())
         //TODO: set dynamic profile pic
-        profile_image.setImageResource(R.drawable.student2)
+        profile_image.setImageResource(R.drawable.student118_male)
 
         val recyclerViewCoaches = binding.rvCoach
         recyclerViewCoaches.doOnPreDraw {
